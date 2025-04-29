@@ -14,7 +14,7 @@ The original LAB_PO project has several flaws that I intend to address:
 - Poor or missing documentation  
 - And more...
 
-LAB_PO consists of 21 `.h` and `.cpp` files, along with 8 deserialization examples.
+LAB_PO consists of 21 `.h` and `.cpp` files (which have 3213 lines), along with 8 deserialization examples.
 
 ### UAR  
 The UAR project focuses on fixing the above issues and refactoring the code.  
