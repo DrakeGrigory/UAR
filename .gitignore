@@ -1,0 +1,10 @@
+# Ignore all
+*
+
+# Exceptions
+!ModelARX.h
+!ObjectSISO.h
+
+
+#gitignore
+!.gitignore
