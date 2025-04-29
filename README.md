@@ -2,7 +2,7 @@
 Project for an Automatic Control System using C++ and Object-Oriented Programming.
 
 ## What is this project?  
-This project is a refactored version of an earlier project ("LAB_PO") that I worked on during the first semester of my Master's degree in ASIC Verification.
+This project is a refactored version of an earlier project ("LAB_PO") that I worked on during the first semester of my Master's degree in ASIC Verification and Design.
 
 ### LAB_PO  
 The goal of the LAB_PO project was to learn the basics of Object-Oriented Programming: polymorphism, design patterns, inheritance, etc.
