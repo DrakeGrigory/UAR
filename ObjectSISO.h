@@ -17,7 +17,7 @@ public:
      * @param x Input Value.
      * @return Output Value.
      */
-    virtual double symuluj(double x) = 0;
+    virtual double simulate(double x) = 0;
     
     /**
      * @brief Virtual destructor.

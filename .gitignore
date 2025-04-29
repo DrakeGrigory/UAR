@@ -2,9 +2,9 @@
 *
 
 # Exceptions
-!ModelARX.h
 !ObjectSISO.h
-
+!ModelARX.h
+!ModelARX.cpp
 
 #gitignore
 !.gitignore

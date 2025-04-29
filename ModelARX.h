@@ -48,29 +48,32 @@ public:
     ModelARX(const vector<double>& numeratorB, const vector<double>& denominatorA, int transportDelay, double standardDeviation);
 
 
-// Settery
+// Setters
     /**
      * @brief Sets Numerator Polynomial B.
      * @param numeratorB Numerator Polynomial B.
      */
-    void setNumPolyB(const vector<double>& numeratorB);
+    void set_NumeratorB(const vector<double>& numeratorB);
 
     /**
      * @brief Sets Denominator Polynomial A.
      * @param denominatorA Denominator Polynomial A.
      */
-    void setDenPolyA(const vector<double>& denominatorA);
+    void set_DenominatorA(const vector<double>& denominatorA);
 
     /**
      * @brief Sets Transport Delay.
      * @param transportDelay  Transport Delay.
      */
-    void setDelay(int transportDelay);
+    void set_TransportDelay(int transportDelay);
 
     /**
      * @brief Sets Standard Deviation.
      * @param standardDeviation Standard Deviation.
      */
-    void setStandardDeviation(double standardDeviation);    
+    void set_StandardDeviation(double standardDeviation);    
 
+
+//Methods
+    double simulate(double u) override;    
 };
